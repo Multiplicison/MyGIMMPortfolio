@@ -1,0 +1,115 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+    color:gray;
+  }
+  .name-text {
+    font-size: 30px;
+    color: gray;
+    font-family: monospace;
+  }
+  .bio-content-text {
+    font-size: 16px;
+    color: gray;
+    font-family: monospace;
+    margin: 20px;
+  }
+
+  .skillset-text {
+    font-size: 16px;
+    color: gray;
+    font-family: monospace;
+    margin: 20px;
+  }
+
+  .sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#symbols {
+    font-size: 30px;
+}
+
+.background {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+    background-color: white;
+    border: solid;
+    color: black;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.text-header {
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+    color: black;
+    font-size: 90px;
+}
+
+.text-body {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: black !important;
+    text-align: left;
+    font-size: 30px;
+}
+
+.thin-orange-border {
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#harryText {
+    color: white;
+}
