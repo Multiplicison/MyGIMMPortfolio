@@ -12,82 +12,35 @@
 </head>
 <body>
     <header>
-        <div class="bg-dark collapse" id="navbarHeader" style="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">Addison Jones' GIMM Portfolio</h4>
-                        <p class="text-muted">My works and skills gained from Games, Interactive, and Mobile Media at Boise State University.</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Pages</h4>
-                        <ul class="list-unstyled">
-                          <li><a href="Profile.html" class="text-white">Profile</a></li>
-                          <li><a href="skillList.html" class="text-white">Skill List</a></li>
-                          <li><a href="Examples.html" class="text-white">Examples</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div>
+            <h4 class="text-white">Addison Jones' GIMM Portfolio</h4>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container d-flex justify-content-between">
-                <a href="Profile.html" class="navbar-brand d-flex align-items-center">
-                    <strong>Profile</strong>
-                </a>
-                <a href="skillList.html" class="navbar-brand d-flex align-items-center">
-                  <strong>Skill List</strong>
-                </a>
-                <a href="Examples.html" class="navbar-brand d-flex align-items-center">
-                  <strong>Examples</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="" id="symbols">&#8595</span>
-                </button>
-            </div>
-        </div>
-    </header>
-    <div class="album py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <br>
-                <br>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="images/ajones.jpg" width="100%" height="100%">
-                        <br>
-                        <center x="50%" y="50%" fill="#eceeef" dy=".3em">&#9729</center>
-                        <div class="card-body">
-                            <p class="card-text">
-                                A member of the 3rd cohort of the GIMM major, I'm striving to develop my skills in emerging technologies.
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="mailto:addisonjones@u.boisestate.edu"><button type="button" class="btn btn-dark">Contact</button></a>
-                                </div>
-                                <small class="text-muted">Addison Jones</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <a href="profile.html" class="navbar-brand d-flex align-items-center">
+            <strong>Profile</strong>
+        </a>
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>Skill List</strong>
+        </a>
+        <a href="examples.html" class="navbar-brand d-flex align-items-center">
+          <strong>Examples</strong>
+        </a>
 
-            </div>
-        </div>
-    </div>
+      </nav>
+
+    </header>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 <div>
-    <p>
-        <ul class="skillset-text" style="margin-left:20%">
-          Through my courses at GIMM, I have learned:
-            <li>Design patterns</li>
-            <li>Programming language comprehension skills</li>
-            <li>Application of new technologies</li>
-        </ul>
+    <p class="skillset-text" style="margin-left:10%">
+        <br>
+        <br>
+          This page contains a timeline list of skills and examples of the projects I have completed in GIMM.
     </p>
-    <p>
+    <p style="margin-left:10%">
       <strong>GIMM 100:</strong>
       <br>
       An animation class where I learned the basics of storyboarding, animation techniques, and Adobe programs including Photoshop and Animate.
@@ -106,12 +59,14 @@
       <br>
       A follow up to GIMM 100, where we continued developing our animation techniques, and finished our music video projects.
       <br>
-      <video width="320" height="240" controls>
+      <video width="640" height="480" controls>
         <source src="video/Tracey Adventure Final.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
       <br>
-      I had no animation skill before these two classes, so please pardon the simple design, and lack of walking animation in the middle.
+      This was my first animation, and I'm pleased with how well it turned out, given the time restraints I had.
+      <br>
+      My familiarity with animation techniques has also improved much since then.
       <br>
       <br>
       <strong>GIMM 250:</strong>
@@ -146,19 +101,19 @@
       <br>
       300 is our web design class.  We overviewed HTML programming, as well as CSS and javascript for web design.
       <br>
-      This site is a project for this class.
+      This site started development in this class.
       <br>
       <br>
       <strong>GIMM 310:</strong>
       <br>
-      310 is a mobile app design class.  Our class group was the first to work exclusively with iOS.
+      310 is a mobile app design class.  Our class group, or "cohort", was the first to work exclusively with iOS for this course, using the XCode program to learn the Swift programming language.
       <br>
       <br>
       <strong>GIMM 330:</strong>
       <br>
       330 taught us techniques for designing 3D models.  We used Maya from AutoDesk to create a low-poly model and apply basic animation to it.
       <br>
-      <video width="320" height="240" controls>
+      <video width="380" height="230" controls>
         <source src="video/Jones_DolphinAnimated2.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
@@ -177,8 +132,6 @@
       <br>
       We used a program called VCV Rack, which emulates a synthesizer.
       <br>
-      I must admit, I had difficulty using this program, and do not have any projects I consider worthwhile to show.
-      <br>
       <br>
       <strong>GIMM 370:</strong>
       <br>
@@ -186,39 +139,53 @@
       <br>
       The end goal for this class is to create a high-poly model with much better levels of detail.
       <br>
-      <img src="images/SharkPreview.jpg">
+      <img src="images/SharkPreview.JPG">
       <br>
       <br>
-      <strong>Personal Projects:</strong>
+      <strong>GIMM 400:</strong>
       <br>
-      On my own time, I enjoy learning how to develop my skills with design programs.
+      In this class, we learned the basics of machine learning, and how to code basic learning systems in Python.
       <br>
-      In a short amount of time, I learned how to remove unwanted color or backgrounds fom animated images, and / or how to create animated images myself.
+      I created a simple game where you must collect the cubes, while the enemy characters chase you and deplete your health bar upon contact.
       <br>
-      Here is a personal project where I removed the white space from this animated .gif of a Snorlax:
-      <table style="width:100%">
-        <tr>
-          <th>Original:</th>
-          <th>My edit:</th>
-        </tr>
-        <tr>
-          <td><img src="images/SnorlaxSleeping.gif"></td>
-          <td><img src="images/SnorlaxSleepingClr.gif"></td>
-        </tr>
-      </table>
-      I have also learned how to merge images together to create new projects out of other source materials.
+      <video width="640" height="380" controls>
+        <source src="video/Milestone4Example.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
       <br>
-      Here I placed the Pokémon Slowbro into a "Koopa Clown Car" using a manga render and an alternate fanart of the Koopaling Wendy, (because I wanted the pink car):
-      <table style="width:100%">
-        <tr>
-          <th>Sources:</th>
-          <th>My edit:</th>
-        </tr>
-        <tr>
-          <td><img src="images/Jinga_Slowbro.png"><img src="images/Wendy_tumblr_inline_nko8itu4251rycdb5.png"></td>
-          <td><img src="images/SlowbroKoopaCar.png"></td>
-        </tr>
-      </table>
-      (This project took me a much longer time to accomplish.)
+      <br>
+      Final appearance of game, with lighting and networking:
+      <br>
+      <img src="images/400Maze_Final.JPG">
+      <br>
+      <br>
+      <strong>GIMM 440:</strong>
+      <br>
+      This class was meant to assist in the creation of a portfolio for my career.
+      <br>
+      This website was improved to be used for this purpose.
+      <br>
+      <br>
+      <strong>GIMM 480:</strong>
+      <br>
+      An assignment to create an Augmented Reality application for the Idaho State Penitentiary started in this class.
+      <br>
+      I created a 3D model of a globe of Earth, and a terrain map of the Chosin Reservoir, where a battle took place during the Korean War.
+      <br>
+      <img src="images/Earth_Blender.JPG">
+      <img src="images/ChosinTopographyCapture.JPG">
+      <br>
+      <br>
+      <strong>GIMM 490:</strong>
+      <br>
+      Continued work on the Augmented Reality application for the Idaho State Penitentiary was finished here.
+      <br>
+      I also improved my skills in 3D modeling with Blender.
+      <br>
+      <img src="images/Douglas_A-1_sc.JPG">
+      <img src="images/MeyersModel_1-31-20.JPG">
+      <br>
+      <br>
+      For more of my projects, see <a href="Examples.html">my Examples page</a>.
     </p>
 </div>
